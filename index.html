@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> hotel web project </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- navigation and banner-->
+	
+	
+	<div class="banner">
+		<div class="navigation">
+			<div class="nav-links">
+				<ul>
+				<li> <a class="active" href="Home"> Home </a> </li> 
+				<li> <a href="About"> About </a> </li>
+				<li> <a href="Rooms & Services"> Rooms & Services </a> </li>
+				<li> <a href="Contact"> Contact </a> </li>	
+			</ul>
+			</div> 
+			<!-- social medias  -->
+			<div class="social-media"> 
+
+				<i class="fab fa-facebook"></i>
+								
+				<i class="fab fa-instagram"></i>
+				
+				<i class="fab fa-twitter"> </i>
+				
+			</div>
+			<div class="button">
+				
+				
+					<!-- button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booknow">Book A Room 
+				</button>
+				
+			</div>
+
+		</div>
+		<div class="textbg"> Medieval Inn</div>
+			<div class="text">Relive your life.</div>
+	</div>
+	
+	
+	<!-- for book now modal bootstrap -->
+				<div class="modal fade" id="booknow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel"> Check Availability </h5>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				      </div>
+				      <div class="modal-body">
+				      	<form method="post" action="#">
+							<fieldset> 
+									<input type="number" name="checkin" value="Check In date ">
+									<input type="number" name="checkout" value="Check out date">
+
+							</fieldset>
+						</form>
+
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+	
+				<!-- 2nd div about us -->
+	<section id="aboutus">
+		<div class="aboutus">
+		<div class="row"> 
+			<div class="col"><h1> Perfect gateaway</h1>
+				<p> Whether you are travelling for business or pleasure, the luxury hotel services offered by the five star Medieval Inn make it an ideal choice. The hotel’s luxurious surroundings, comfort, thoughtful touches and a personalized service sets it apart from any other hotel, allowing you to feel like being at home from your very first steps into the hotel.
+
+				We are geared towards the fulfilment of the needs of any discerning guest and below you can find an alphabetical overview of the most commonly-used services and facilities offered by our boutique hotel.Relive your life in your weekends. Make the best out of your life and get amazing services and experience the luxury you have been wanting for. Book a room now for your perfect weekends. </p>
+				<a href="#"> Learn More.</a>
+			</div>
+			<div class="col">
+				<img src="images/rooms.jpg" alt="rooms" height="350" width="275" style="float:left; margin-left: 20px;" >
+				<img src="images/garden.jpg" alt="rooms" height="350" width="275" style="float:left;margin-left: 50px;" >
+			</div>
+		</div>
+	</div>
+	</section>
+				<!-- 3rd div class ongoing offers  -->
+	<div class="ongoingoffers">
+		<div class="row" style="width: 100%; justify-content: center;"> Ongoing Offers</div>
+		<div class="row"> 
+			<div class="col"> 
+				<img src="images/dinner.jpg" alt="dinner" height="350" width="350">
+			</div>
+			<div class="col"> 
+				<img src="images/view.jpg" alt="dinner" height="350" width="350">
+			</div>
+			<div class="col"> 
+				<img src="images/ball room.jpg" alt="dinner" height="350" width="350">
+			</div>
+		</div>
+	</div>			
+
+</body>
+<!-- bootstrap js -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<!-- font awesome js -->
+	<script src="https://kit.fontawesome.com/29c544378d.js" crossorigin="anonymous"></script>
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- linking js -->
+	<script src="js/custom.js"></script>
+</html>

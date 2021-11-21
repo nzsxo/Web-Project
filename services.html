@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> hotel web assignment </title>
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- navigation and banner-->
+	
+	
+	<div class="banner">
+		<div class="navigation">
+			<div class="nav-links">
+				<ul>
+				<li> <a class="active" href="index.html"> Home </a> </li> 
+				<li> <a href="About"> About </a> </li>
+				<li> <a href="room2.html"> Rooms & Suites </a> </li>
+				<li> <a href="services.html"> Services </a> </li>
+				<li> <a href="Contact"> Contact </a> </li>	
+			</ul>
+			</div> 
+			<!-- social medias  -->
+			<div class="social-media"> 
+
+				<i class="fab fa-facebook"></i>
+								
+				<i class="fab fa-instagram"></i>
+				
+				<i class="fab fa-twitter"> </i>
+				
+			</div>
+			<div class="button">
+				
+				
+					<!-- button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booknow">Book A Room 
+				</button>
+				
+			</div>
+
+		</div>
+		<div class="textbg"> Services</div>
+			
+	</div>
+	
+	
+	<!-- for book now modal bootstrap -->
+				<div class="modal fade" id="booknow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel"> Check Availability </h5>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				      </div>
+				      <div class="modal-body">
+				      	<form method="post" action="#">
+							<fieldset> 
+									<input type="number" name="checkin" value="Check In date ">
+									<input type="number" name="checkout" value="Check out date">
+
+							</fieldset>
+						</form>
+
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<section id="aboutus">
+		<div class="aboutus">
+		<div class="row"> 
+			<div class="row" style="justify-content: center; color: #c99200; text-align: center;">
+				<h1>Everything You Need</h1>
+				<p> Our experience at the Medieval Inn promises to be your most comfortable stay. We offer an array of amenities and features for the ultimate getaway to the medieval age. We have got everthing you will ever need and to keep you feeling good. At medieval Inn we offer you servies that are modern but it is medieval era themed. <br>
+
+				Here you will experience services which will satisfy you. Choose from medieval themed breakfast, lunch, dinner,to accomdations, to event venues for wedding and other auspicious occasions, to transportation for tour of the estate. We guaraentee top notch services to our guests for perfect getaway.</p><br>
+				<p>For more aminities 
+				<a href="#"> Click Here.</a><br></p>
+			</div>
+			
+		</div>
+	</div>
+	</section>
+
+					<!--    1     -->
+<div class="services">
+		<div class="row"> 
+			<div class="col"> 
+				<img src="images/dinner3.jpg" alt="dinner" height="350" width="380">
+				<div class="col" style="width: 100%; justify-content: center;"><h1>Dinning</h1>
+					<ul>
+				<li>Breakfast</li><br>
+				<li>Lunch</li><br>
+				<li>Dinner</li><br>
+				<li>Choose among various options available</li><br>
+				<li>Room Services</li>
+				<li>Personalized meals available</li><br>
+				 </ul>
+				</div>
+			</div>
+			<div class="col"> 
+				<img src="images/view.jpg" alt="dinner" height="350" width="350">
+				<div class="col" style="width: 100%; justify-content: center;"><h1> View</h1>
+					<ul>
+				<li>Estate view</li><br>
+				<li>Stunnimg view of hills</li><br>
+				<li>Garden view</li><br>
+				
+				 </ul>
+				</div>
+			</div>
+			<div class="col"> 
+				<img src="images/ball room.jpg" alt="dinner" height="350" width="350">
+				<div class="col" style="width: 100%; justify-content: center;"><h1> Ballroom</h1>
+					<ul>
+				<li>Wedding venue</li><br>
+				<li>Mass Gathering</li><br>
+				<li>Offering any other personal events</li><br>
+				<li>Medieval Themed</li><br>
+				 </ul>
+				</div>
+			</div>
+
+		</div>
+	</div>	
+
+						<!--    2     -->
+	<div class="services">
+		<div class="row"> 
+			<div class="col"> 
+				<img src="images/estate.jpg" alt="dinner" height="350" width="380">
+				<div class="col" style="width: 100%; justify-content: center;"><h1>Trips & Tour</h1>
+					<ul>
+				<li>Estate walking tour for Free</li><br>
+				<li>Trip to town</li><br>
+				<li>Hike on the hills</li><br>
+				<li>Town guide</li><br>
+				 </ul>
+				</div>
+			</div>
+			<div class="col"> 
+				<img src="images/pet.jpg" alt="dinner" height="350" width="350">
+				<div class="col" style="width: 100%; justify-content: center;"><h1>Pet Friendly</h1>
+					<ul>
+				<li>Seperate area for pets</li><br>
+				<li>Grooming services</li><br>
+				<li>Personalized services available</li>
+				 </ul>
+				</div>
+			</div>
+			<div class="col"> 
+				<img src="images/transport.jpg" alt="dinner" height="350" width="350">
+				<div class="col" style="width: 100%; justify-content: center;"><h1>Transportation</h1>
+					<ul>
+				<li>Transportation available</li><br>
+				<li>Airport transfers</li><br>
+				<li>Bicycle rental</li><br>
+				<li>Rental vehicles</li><br>
+				 </ul>
+				</div>
+			</div>
+
+		</div>
+	</div>	
+	
+				
+</body>
+<!-- bootstrap js -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<!-- font awesome js -->
+	<script src="https://kit.fontawesome.com/29c544378d.js" crossorigin="anonymous"></script>
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- linking js -->
+	<script src="js/custom.js"></script>
+</html>

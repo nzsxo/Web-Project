@@ -1,0 +1,152 @@
+/*index page styles*/
+
+/* full height and width bg image */
+
+body,html{
+	height: 100%;
+	margin: 0;
+}
+/* navigation bar  */
+.navigation{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+}
+/* transparent header to colored */
+.non-transparent{
+	background-color: dimgrey; !important;
+}
+/*nav links is inside navigation for social
+media icons*/
+.nav-links{
+	padding: 20px 10%;
+	width: 60%;
+}
+.social-media{
+	padding-top: 20px;
+	width: 20%;
+	
+}
+
+/*for navigation home about etc*/
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+
+li a:hover{
+	transform: scale(1.25);
+}
+
+/*for social media elements*/
+i{
+	float: right;
+	padding: 25px 15px;
+}
+
+i:hover{
+	transform: scale(1.25);
+}
+
+/*book now button*/
+.button{
+	
+	display: block;
+	background-color: transparent;
+	text-align: center;
+	padding: 25px 15px;
+	text-decoration: none;
+	color: white;
+	float: right;
+	width: 20%;
+	
+}
+
+button
+{
+	margin-top: 7px !important;
+}
+
+/* used image */
+.banner{
+	
+	background-image: url("../images/background image.jpg");
+
+	/*full height*/
+	height: 100%;
+
+	/* image property */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*for hotel name and tagline*/
+.textbg{
+	font-family: Times New Roman;
+	position: absolute;
+	color: beige;
+	font-size: 5rem;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.text{
+	font-size:2rem;
+	position: absolute;
+	font-family: Times New Roman;
+	color: beige;
+	top: 85%;
+	left: 50%;
+	
+}
+
+/*about us*/
+.aboutus{
+	padding: 40px 8%;
+}
+
+.col{
+	font-size: 1.1rem;
+	text-align: justify;
+	color: dimgrey;
+	font-family: Times New Roman;
+}
+.aboutus a{
+	color: dimgrey;
+}
+.aboutus a:hover{
+	font-size: 1.2rem;
+	transform: scale(1.5);
+}
+.aboutus img{
+	object-fit: cover;
+	display: block;
+	
+}
+/*ongoing offers*/
+.ongoingoffers{
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 3rem;
+	color: dimgrey;
+	padding: 40px 5%;
+}
+.ongoingoffers img{
+	display: block;
+	margin: 0 auto;
+}
